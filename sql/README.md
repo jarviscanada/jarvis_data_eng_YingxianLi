@@ -354,7 +354,7 @@ This project is deployed **locally**.
 1. Start Docker PostgreSQL Container
 2. Connect DBeaver to PostgreSQL
 3. Execute `queries.sql` to create tables and run queries
-4. Validate outputs using DBeaver?s result grid
+4. Validate outputs using DBeavers result grid
 
 ## Improvement
 

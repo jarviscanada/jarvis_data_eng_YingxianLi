@@ -16,6 +16,7 @@ public class JavaGrepImp implements JavaGrep{
   private String regex;
   private String rootPath;
   private String outFile;
+  private Pattern pattern;
 
   public static void main(String[] args) {
     if (args.length != 3) {
@@ -113,7 +114,8 @@ public class JavaGrepImp implements JavaGrep{
 
   @Override
   public boolean containsPattern(String line) {
-    return Pattern.compile(regex).matcher(line).find();
+    if (line == null) return false;
+    return pattern.matcher(line).find();
   }
 
   @Override
@@ -154,6 +156,7 @@ public class JavaGrepImp implements JavaGrep{
   @Override
   public void setRegex(String regex) {
     this.regex = regex;
+    this.pattern = Pattern.compile(regex);
   }
 
   @Override

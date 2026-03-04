@@ -30,7 +30,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_YingxianLi
       
   - Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
   - JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
-  - Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
+  - Grep App: Built a Java CLI app that mimics Linux `grep` by recursively scanning directories, matching lines using regex (`Pattern`), and writing results to an output file; improved scalability by streaming file contents line-by-line instead of loading whole files.
 
 **Springboot App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_YingxianLi/tree/master/springboot)]: Not Started
 

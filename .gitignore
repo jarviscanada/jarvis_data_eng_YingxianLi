@@ -9,3 +9,5 @@ target/
 *.ear
 *.logs
 .eclipse
+
+out/

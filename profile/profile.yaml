@@ -5,7 +5,7 @@ github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_YingxianLi
 
 # Introduce yourself, your academic and professional background.
 # What excites you about the software industry and your passion. At least 80 words
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis a orci ac malesuada. Vivamus ligula elit, viverra eu ante porttitor, blandit convallis augue. Aliquam justo justo, mollis at lacus eu, rutrum finibus est. Vestibulum venenatis purus id accumsan pretium. In efficitur magna nec enim laoreet tincidunt. Ut libero metus, scelerisque nec eros vitae, sagittis pellentesque enim. Donec dictum felis volutpat, vehicula magna eu, imperdiet elit. Phasellus ut velit a massa efficitur faucibus. Sed volutpat, lacus sed sagittis luctus, elit.
+summary: I recently graduated from University of Toronto with a degree in data analytics and have been building hands-on experience through data engineering projects at Jarvis Consulting Group. My background includes working with Python, SQL, PySpark, Databricks, PostgreSQL, and cloud-based data platforms to build analytics, backend, and distributed data processing solutions. What excites me most about the data industry is the opportunity to solve real business problems with technology and to keep learning new tools and systems. I am especially passionate about data engineering because it combines problem-solving, scalability, and practical business impact.
 
 # Group your skills by level.
 # Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
@@ -19,18 +19,18 @@ skills:
     - Git
   # At least 5 skills
   competent:
-    - Donec
-    - fermentum
-    - Donec
-    - fermentum
-    - Donec
+    - SQL
+    - Python
+    - Pyspark
+    - Databricks
+    - PostgreSQL
   # At least 5 skills
   familiar:
-    - Donec
-    - fermentum
-    - fermentum
-    - fermentum
-    - fermentum
+    - Java
+    - Docker
+    - Azure
+    - Zeppelin
+    - Maven
 
 # List of Jarvis projects
 jarvis_projects:
@@ -49,22 +49,25 @@ jarvis_projects:
       - "Wrote optimized SQL queries (joins, aggregates, subqueries, CTEs, window functions) to answer business questions."
   - name: "Core Java Apps"
     git_url: "/core_java"
-    description:
-      - "Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
-      - "JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
-      - "Grep App: Built a Java CLI app that mimics Linux `grep` by recursively scanning directories, matching lines using regex (`Pattern`), and writing results to an output file; improved scalability by streaming file contents line-by-line instead of loading whole files."
+    description: "Grep App: Built a Java CLI app that mimics Linux `grep` by recursively scanning directories, matching lines using regex (`Pattern`), and writing results to an output file; improved scalability by streaming file contents line-by-line instead of loading whole files."
   - name: "Springboot App"
     git_url: "/springboot"
     description: ""
   - name: "Python Data Analytics"
     git_url: "/python_data_anlytics"
-    description: ""
+    description:
+      - "Built a Python-based retail analytics proof of concept for the London Gift Shop (LGS) marketing team using Jupyter Notebook."
+      - "Cleaned and transformed historical transaction data to support exploratory analysis and business insight generation."
+      - "Generated marketing-focused insights to help identify high-value, loyal, inactive, and at-risk customers."
   - name: "Hadoop"
     git_url: "/hadoop"
     description: ""
   - name: "Spark"
     git_url: "/spark"
-    description: ""
+    description:
+      - "Redesigned the earlier Python retail analytics workflow into a scalable Spark-based solution for larger datasets."
+      - "Built the main implementation in Databricks on Azure using PySpark DataFrame APIs for data cleaning, transformation, aggregation, and business analysis."
+      - "Analyzed retail transaction data to support use cases such as revenue calculation, monthly sales trends, and customer behavior analysis."
   - name: "Cloud/DevOps"
     git_url: "/cloud_devops"
     description: ""
@@ -73,29 +76,23 @@ jarvis_projects:
 # Feel free to add more projects
 highlighted_projects:
     #project name
-  - name: "Web app for resturant"
-    #URL is optional
-    git_url: "https://github.com/jarviscanada/jarvis_profile_builder"
-    # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
-  - name: "Machine Learning"
-    git_url:
-    description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+    - name: "Stock Analytics Pipeline"
+      description: "Developed a medallion architecture pipeline in Databricks with DLT to ingest, clean, and transform stock API data across bronze, silver, and gold tables. Engineered analytical features such as rolling price change, percentage change, and volume trend metrics over 7/30/90-day windows for downstream reporting. Built interactive dashboard visualizations in Databricks SQL to monitor stock movement, compare tickers, and analyze trends with dynamic filters."
 
 #List of professional experience
 #The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
 #The description must be more than 25 words. If your experience is not software related, please focus on soft skills and achievements (e.g. team collaboration, problem-solving, improvements, communication).
 professional_experience:
   #Write your Jarvis role as a professional experience rather than training.
+  - title: "Data Engineering Trainee"
+    company: "Jarvis Consulting Group"
+    duration: "2026.01 - Present"
+    description: "Worked as a Data Engineering Trainee, building hands-on projects in Java, Python, SQL, Spark, and cloud/data platforms."
   - title: "Data Analyst"
     company: "VS-Consulting Group"
     duration: "2022.05-2022.08"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
     description: "Collected, cleaned, and transformed client data from multiple sources into structured datasets for analysis. Developed automated Excel VBA workflows and Power BI dashboards, reducing manual reporting effort and improving visibility into key business metrics. Built analytical models on selected KPIs to support data-driven decision-making aligned with stakeholder requirements. Collaborated with consultants and data engineers to deliver data solutions and present insights to project leads and clients."
-  - title: "Tutor"
-    company: "XYZ Company"
-    duration: "2019"
-    description: "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis."
 
 #List of edcuation
 education: 
@@ -130,5 +127,4 @@ others:
   - title: "Activities/Hobbies"
     bullets:
       - "Basketball player"
-      - "Competitive gaming"
-      - "Volunteer, ABC Food bank: Ut enim ad minim veniam"
+      - "Gym training"

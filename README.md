@@ -28,15 +28,11 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_YingxianLi
 
 **Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_YingxianLi/tree/master/core_java)]: Grep App: Built a Java CLI app that mimics Linux `grep` by recursively scanning directories, matching lines using regex (`Pattern`), and writing results to an output file; improved scalability by streaming file contents line-by-line instead of loading whole files.
 
-**Springboot App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_YingxianLi/tree/master/springboot)]: Not Started
-
 **Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_YingxianLi/tree/master/python_data_anlytics)]:
       
   - Built a Python-based retail analytics proof of concept for the London Gift Shop (LGS) marketing team using Jupyter Notebook.
   - Cleaned and transformed historical transaction data to support exploratory analysis and business insight generation.
   - Generated marketing-focused insights to help identify high-value, loyal, inactive, and at-risk customers.
-
-**Hadoop** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_YingxianLi/tree/master/hadoop)]: Not Started
 
 **Spark** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_YingxianLi/tree/master/spark)]:
       
@@ -44,7 +40,11 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_YingxianLi
   - Built the main implementation in Databricks on Azure using PySpark DataFrame APIs for data cleaning, transformation, aggregation, and business analysis.
   - Analyzed retail transaction data to support use cases such as revenue calculation, monthly sales trends, and customer behavior analysis.
 
-**Cloud/DevOps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_YingxianLi/tree/master/cloud_devops)]: Not Started
+**Databricks** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_YingxianLi/tree/master/databricks)]:
+      
+  - Built an end-to-end Databricks data pipeline using a medallion architecture, transforming raw data through Bronze, Silver, and Gold notebooks for analytics-ready reporting.
+  - Orchestrated the workflow with Databricks Jobs, sequencing notebook tasks and dashboard refresh steps to automate data processing from ingestion to visualization.
+  - Created interactive Databricks dashboards to present key business insights and KPIs from curated Gold-layer data for stakeholder reporting.
 
 
 ## Highlighted Projects

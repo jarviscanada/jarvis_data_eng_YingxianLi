@@ -50,11 +50,6 @@
       "name": "Core Java Apps"
     },
     {
-      "description": "",
-      "git_url": "/springboot",
-      "name": "Springboot App"
-    },
-    {
       "description": [
         "Built a Python-based retail analytics proof of concept for the London Gift Shop (LGS) marketing team using Jupyter Notebook.",
         "Cleaned and transformed historical transaction data to support exploratory analysis and business insight generation.",
@@ -62,11 +57,6 @@
       ],
       "git_url": "/python_data_anlytics",
       "name": "Python Data Analytics"
-    },
-    {
-      "description": "",
-      "git_url": "/hadoop",
-      "name": "Hadoop"
     },
     {
       "description": [
@@ -78,9 +68,13 @@
       "name": "Spark"
     },
     {
-      "description": "",
-      "git_url": "/cloud_devops",
-      "name": "Cloud/DevOps"
+      "description": [
+        "Built an end-to-end Databricks data pipeline using a medallion architecture, transforming raw data through Bronze, Silver, and Gold notebooks for analytics-ready reporting.",
+        "Orchestrated the workflow with Databricks Jobs, sequencing notebook tasks and dashboard refresh steps to automate data processing from ingestion to visualization.",
+        "Created interactive Databricks dashboards to present key business insights and KPIs from curated Gold-layer data for stakeholder reporting."
+      ],
+      "git_url": "/databricks",
+      "name": "Databricks"
     }
   ],
   "name": "Yingxian Li",

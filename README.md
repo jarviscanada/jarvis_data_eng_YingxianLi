@@ -1,14 +1,14 @@
 # Yingxian Li . Jarvis Consulting
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis a orci ac malesuada. Vivamus ligula elit, viverra eu ante porttitor, blandit convallis augue. Aliquam justo justo, mollis at lacus eu, rutrum finibus est. Vestibulum venenatis purus id accumsan pretium. In efficitur magna nec enim laoreet tincidunt. Ut libero metus, scelerisque nec eros vitae, sagittis pellentesque enim. Donec dictum felis volutpat, vehicula magna eu, imperdiet elit. Phasellus ut velit a massa efficitur faucibus. Sed volutpat, lacus sed sagittis luctus, elit.
+I recently graduated from University of Toronto with a degree in data analytics and have been building hands-on experience through data engineering projects at Jarvis Consulting Group. My background includes working with Python, SQL, PySpark, Databricks, PostgreSQL, and cloud-based data platforms to build analytics, backend, and distributed data processing solutions. What excites me most about the data industry is the opportunity to solve real business problems with technology and to keep learning new tools and systems. I am especially passionate about data engineering because it combines problem-solving, scalability, and practical business impact.
 
 ## Skills
 
 **Proficient:** Python, Linux/Bash, RDBMS/SQL, Agile/Scrum, Git
 
-**Competent:** Donec, fermentum, Donec, fermentum, Donec
+**Competent:** SQL, Python, Pyspark, Databricks, PostgreSQL
 
-**Familiar:** Donec, fermentum, fermentum, fermentum, fermentum
+**Familiar:** Java, Docker, Azure, Zeppelin, Maven
 
 ## Jarvis Projects
 
@@ -26,34 +26,36 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_YingxianLi
   - Designed an ERD and implemented a relational schema using PostgreSQL DDL with primary/foreign keys and constraints.
   - Wrote optimized SQL queries (joins, aggregates, subqueries, CTEs, window functions) to answer business questions.
 
-**Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_YingxianLi/tree/master/core_java)]:
-      
-  - Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
-  - JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
-  - Grep App: Built a Java CLI app that mimics Linux `grep` by recursively scanning directories, matching lines using regex (`Pattern`), and writing results to an output file; improved scalability by streaming file contents line-by-line instead of loading whole files.
+**Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_YingxianLi/tree/master/core_java)]: Grep App: Built a Java CLI app that mimics Linux `grep` by recursively scanning directories, matching lines using regex (`Pattern`), and writing results to an output file; improved scalability by streaming file contents line-by-line instead of loading whole files.
 
 **Springboot App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_YingxianLi/tree/master/springboot)]: Not Started
 
-**Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_YingxianLi/tree/master/python_data_anlytics)]: Not Started
+**Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_YingxianLi/tree/master/python_data_anlytics)]:
+      
+  - Built a Python-based retail analytics proof of concept for the London Gift Shop (LGS) marketing team using Jupyter Notebook.
+  - Cleaned and transformed historical transaction data to support exploratory analysis and business insight generation.
+  - Generated marketing-focused insights to help identify high-value, loyal, inactive, and at-risk customers.
 
 **Hadoop** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_YingxianLi/tree/master/hadoop)]: Not Started
 
-**Spark** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_YingxianLi/tree/master/spark)]: Not Started
+**Spark** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_YingxianLi/tree/master/spark)]:
+      
+  - Redesigned the earlier Python retail analytics workflow into a scalable Spark-based solution for larger datasets.
+  - Built the main implementation in Databricks on Azure using PySpark DataFrame APIs for data cleaning, transformation, aggregation, and business analysis.
+  - Analyzed retail transaction data to support use cases such as revenue calculation, monthly sales trends, and customer behavior analysis.
 
 **Cloud/DevOps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_YingxianLi/tree/master/cloud_devops)]: Not Started
 
 
 ## Highlighted Projects
-**Web app for resturant** [[GitHub](https://github.com/jarviscanada/jarvis_profile_builder)]: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
-
-**Machine Learning**: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+**Stock Analytics Pipeline**: Developed a medallion architecture pipeline in Databricks with DLT to ingest, clean, and transform stock API data across bronze, silver, and gold tables. Engineered analytical features such as rolling price change, percentage change, and volume trend metrics over 7/30/90-day windows for downstream reporting. Built interactive dashboard visualizations in Databricks SQL to monitor stock movement, compare tickers, and analyze trends with dynamic filters.
 
 
 ## Professional Experiences
 
-**Data Analyst, VS-Consulting Group (2022.05-2022.08)**: Collected, cleaned, and transformed client data from multiple sources into structured datasets for analysis. Developed automated Excel VBA workflows and Power BI dashboards, reducing manual reporting effort and improving visibility into key business metrics. Built analytical models on selected KPIs to support data-driven decision-making aligned with stakeholder requirements. Collaborated with consultants and data engineers to deliver data solutions and present insights to project leads and clients.
+**Data Engineering Trainee, Jarvis Consulting Group (2026.01 - Present)**: Worked as a Data Engineering Trainee, building hands-on projects in Java, Python, SQL, Spark, and cloud/data platforms.
 
-**Tutor, XYZ Company (2019)**: Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.
+**Data Analyst, VS-Consulting Group (2022.05-2022.08)**: Collected, cleaned, and transformed client data from multiple sources into structured datasets for analysis. Developed automated Excel VBA workflows and Power BI dashboards, reducing manual reporting effort and improving visibility into key business metrics. Built analytical models on selected KPIs to support data-driven decision-making aligned with stakeholder requirements. Collaborated with consultants and data engineers to deliver data solutions and present insights to project leads and clients.
 
 
 ## Education
@@ -72,5 +74,4 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_YingxianLi
 - SAS Advanced Programmer Certification
 - Winner
 - Basketball player
-- Competitive gaming
-- Volunteer, ABC Food bank: Ut enim ad minim veniam
+- Gym training

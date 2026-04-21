@@ -1,0 +1,127 @@
+# Preferred name (Characters only)
+name: "Yingxian Li"
+# Your GitHub repo root URL
+github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_YingxianLi
+
+# Introduce yourself, your academic and professional background.
+# What excites you about the software industry and your passion. At least 80 words
+summary: I recently graduated from University of Toronto with a degree in data analytics and have been building hands-on experience through data engineering projects at Jarvis Consulting Group. My background includes working with Python, SQL, PySpark, Databricks, PostgreSQL, and cloud-based data platforms to build analytics, backend, and distributed data processing solutions. What excites me most about the data industry is the opportunity to solve real business problems with technology and to keep learning new tools and systems. I am especially passionate about data engineering because it combines problem-solving, scalability, and practical business impact.
+
+# Group your skills by level.
+# Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
+skills:
+  # At least 5 skills
+  proficient:
+    - Python
+    - Linux/Bash
+    - RDBMS/SQL
+    - Agile/Scrum
+    - Git
+  # At least 5 skills
+  competent:
+    - SQL
+    - Python
+    - Pyspark
+    - Databricks
+    - PostgreSQL
+  # At least 5 skills
+  familiar:
+    - Java
+    - Docker
+    - Azure
+    - Zeppelin
+    - Maven
+
+# List of Jarvis projects
+jarvis_projects:
+  - name: "Cluster Monitor"
+    git_url: "/linux_sql"
+    # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description:
+      - "Built a Linux-based cluster monitoring agent that collects host CPU/memory/disk metrics and stores them in PostgreSQL."
+      - "Automated metric collection with Bash scripts and scheduled jobs, enabling near real-time visibility into server health."
+      - "Wrote SQL queries to analyze resource usage trends and support capacity planning."
+  - name: "RDBMS and SQL"
+    git_url: "/sql"
+    description:
+      - "Designed an ERD and implemented a relational schema using PostgreSQL DDL with primary/foreign keys and constraints."
+      - "Wrote optimized SQL queries (joins, aggregates, subqueries, CTEs, window functions) to answer business questions."
+  - name: "Core Java Apps"
+    git_url: "/core_java"
+    description: "Grep App: Built a Java CLI app that mimics Linux `grep` by recursively scanning directories, matching lines using regex (`Pattern`), and writing results to an output file; improved scalability by streaming file contents line-by-line instead of loading whole files."
+  - name: "Python Data Analytics"
+    git_url: "/python_data_anlytics"
+    description:
+      - "Built a Python-based retail analytics proof of concept for the London Gift Shop (LGS) marketing team using Jupyter Notebook."
+      - "Cleaned and transformed historical transaction data to support exploratory analysis and business insight generation."
+      - "Generated marketing-focused insights to help identify high-value, loyal, inactive, and at-risk customers."
+  - name: "Spark"
+    git_url: "/spark"
+    description:
+      - "Redesigned the earlier Python retail analytics workflow into a scalable Spark-based solution for larger datasets."
+      - "Built the main implementation in Databricks on Azure using PySpark DataFrame APIs for data cleaning, transformation, aggregation, and business analysis."
+      - "Analyzed retail transaction data to support use cases such as revenue calculation, monthly sales trends, and customer behavior analysis."
+  - name: "Databricks"
+    git_url: "/databricks"
+    description:
+      - "Built an end-to-end Databricks data pipeline using a medallion architecture, transforming raw data through Bronze, Silver, and Gold notebooks for analytics-ready reporting."
+      - "Orchestrated the workflow with Databricks Jobs, sequencing notebook tasks and dashboard refresh steps to automate data processing from ingestion to visualization."
+      - "Created interactive Databricks dashboards to present key business insights and KPIs from curated Gold-layer data for stakeholder reporting."
+
+# List of personal or academic projects
+# Feel free to add more projects
+highlighted_projects:
+    #project name
+    - name: "Stock Analytics Pipeline"
+      description: "Developed a medallion architecture pipeline in Databricks with DLT to ingest, clean, and transform stock API data across bronze, silver, and gold tables. Engineered analytical features such as rolling price change, percentage change, and volume trend metrics over 7/30/90-day windows for downstream reporting. Built interactive dashboard visualizations in Databricks SQL to monitor stock movement, compare tickers, and analyze trends with dynamic filters."
+
+#List of professional experience
+#The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
+#The description must be more than 25 words. If your experience is not software related, please focus on soft skills and achievements (e.g. team collaboration, problem-solving, improvements, communication).
+professional_experience:
+  #Write your Jarvis role as a professional experience rather than training.
+  - title: "Data Engineering Trainee"
+    company: "Jarvis Consulting Group"
+    duration: "2026.01 - Present"
+    description: "Worked as a Data Engineering Trainee, building hands-on projects in Java, Python, SQL, Spark, and cloud/data platforms."
+  - title: "Data Analyst"
+    company: "VS-Consulting Group"
+    duration: "2022.05-2022.08"
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: "Collected, cleaned, and transformed client data from multiple sources into structured datasets for analysis. Developed automated Excel VBA workflows and Power BI dashboards, reducing manual reporting effort and improving visibility into key business metrics. Built analytical models on selected KPIs to support data-driven decision-making aligned with stakeholder requirements. Collaborated with consultants and data engineers to deliver data solutions and present insights to project leads and clients."
+
+#List of edcuation
+education: 
+  - school_name: "University of Toronto"
+    duration: "2023-2025"
+    degree: "Master of Engineering"
+    department: "Data Analytics and Machine Learning"
+    awards_achievements: []
+    # optional
+  - school_name: "University of Toronto"
+    duration: "2019-2023"
+    degree: "Honours Bachelor of Science"
+    department: "Mathematics"
+    awards_achievements:
+      - "Scholarship"
+      - "University of Toronto Dean List (2020-2022)"
+      - "GPA: 3.7/4.0"
+
+#Optional section
+others:
+    #category
+  - title: "Certificates"
+    bullets:
+      - "Databricks Certified Data Engineer Associate"
+      - "Microsoft Power BI Data Analyst (PL-300)"
+      - "SAS Base Programmer Certification"
+      - "SAS Advanced Programmer Certification"
+    #list of items
+  - title: "Awards"
+    bullets:
+      - "Winner"
+  - title: "Activities/Hobbies"
+    bullets:
+      - "Basketball player"
+      - "Gym training"

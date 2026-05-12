@@ -10,4 +10,6 @@ target/
 *.logs
 .eclipse
 
-out/
+out/capstone/data/
+*.csv
+*.zip

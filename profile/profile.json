@@ -22,8 +22,12 @@
   "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_YingxianLi",
   "highlighted_projects": [
     {
-      "description": "Developed a medallion architecture pipeline in Databricks with DLT to ingest, clean, and transform stock API data across bronze, silver, and gold tables. Engineered analytical features such as rolling price change, percentage change, and volume trend metrics over 7/30/90-day windows for downstream reporting. Built interactive dashboard visualizations in Databricks SQL to monitor stock movement, compare tickers, and analyze trends with dynamic filters.",
+      "description": "Developed a reusable Databricks data platform solution using Lakeflow Declarative Pipelines and a medallion architecture to ingest, validate, standardize, and transform stock API data across Bronze, Silver, and Gold Delta tables. Implemented incremental ingestion, data-quality expectations, deduplication, and automated workflow orchestration to create reliable and governed datasets in Unity Catalog. Engineered reusable analytical features, including 7-, 30-, and 90-day price-change and volume-trend metrics, and delivered interactive Databricks dashboards with dynamic filters for downstream users. Independently researched unfamiliar Databricks capabilities, resolved storage-access and pipeline-design challenges, and documented the solution for future reuse and extension.",
       "name": "Stock Analytics Pipeline"
+    },
+    {
+      "description": "Joined an in-progress AWS migration project on short notice and independently ramped up on the AWS ecosystem to support delivery after a team member unexpectedly left. Developed modular ETL pipelines with AWS Glue and PySpark to process historical and streaming CSV/JSON data from Amazon S3 into curated Aurora MySQL tables covering customer profiles, class schedules, attendance, engagement, lifecycle segmentation, and churn-prediction features. Orchestrated daily and weekly workflows using EventBridge-triggered AWS Lambda functions, built an interactive Streamlit dashboard to visualize signup trends, popular classes, instructors, and churn patterns, and implemented an Amazon SES?based email campaign system that sent personalized onboarding and re-engagement messages while preventing duplicate communications within 30 days.",
+      "name": "Fitness Cloud Data Platform"
     }
   ],
   "jarvis_projects": [
@@ -69,9 +73,10 @@
     },
     {
       "description": [
-        "Built an end-to-end Databricks data pipeline using a medallion architecture, transforming raw data through Bronze, Silver, and Gold notebooks for analytics-ready reporting.",
-        "Orchestrated the workflow with Databricks Jobs, sequencing notebook tasks and dashboard refresh steps to automate data processing from ingestion to visualization.",
-        "Created interactive Databricks dashboards to present key business insights and KPIs from curated Gold-layer data for stakeholder reporting."
+        "Built reusable Databricks data pipeline components using a medallion architecture, creating standardized Bronze, Silver, and Gold processing patterns that can be extended to additional datasets and use cases.",
+        "Implemented automated ingestion, transformation, data-quality validation, and workflow orchestration using PySpark, Lakeflow Declarative Pipelines, Databricks Jobs, and Unity Catalog.",
+        "Developed governed, analytics-ready Delta tables and interactive Databricks dashboards, enabling business users to access trusted datasets and business metrics.",
+        "Independently researched Databricks platform capabilities, troubleshot integration and permission issues, and documented implementation decisions to support future platform adoption"
       ],
       "git_url": "/databricks",
       "name": "Databricks"
@@ -81,63 +86,52 @@
   "others": [
     {
       "bullets": [
-        "Databricks Certified Data Engineer Associate",
-        "Microsoft Power BI Data Analyst (PL-300)",
-        "SAS Base Programmer Certification",
-        "SAS Advanced Programmer Certification"
+        "Databricks Certified Data Engineer Professional (2025)",
+        "Databricks Certified Data Engineer Associate (2025)",
+        "Microsoft Power BI Data Analyst (PL-300) (2022)",
+        "SAS Advanced Programmer Certification (2021)",
+        "SAS Base Programmer Certification (2021)"
       ],
       "title": "Certificates"
-    },
-    {
-      "bullets": [
-        "Winner"
-      ],
-      "title": "Awards"
-    },
-    {
-      "bullets": [
-        "Basketball player",
-        "Gym training"
-      ],
-      "title": "Activities/Hobbies"
     }
   ],
   "professional_experience": [
     {
       "company": "Jarvis Consulting Group",
-      "description": "Worked as a Data Engineering Trainee, building hands-on projects in Java, Python, SQL, Spark, and cloud/data platforms.",
+      "description": "Developed software and data engineering projects using Python, SQL, PySpark, Databricks, PostgreSQL, Linux/Bash, Java, and related cloud technologies. Designed and built ETL pipelines, relational database solutions, system-monitoring applications, backend tools, and data analytics workflows to support technical anad business use cases. Automated data processing and operational tasks, implemented data-quality checks, and used Git and Agile practices throughout the development lifecycle. Translated project requirements into working solutions, troubleshot technical issues, and presented analytical results through reports and interactive dashboards.",
       "duration": "2026.01 - Present",
       "title": "Data Engineering Trainee"
     },
     {
       "company": "VS-Consulting Group",
-      "description": "Collected, cleaned, and transformed client data from multiple sources into structured datasets for analysis. Developed automated Excel VBA workflows and Power BI dashboards, reducing manual reporting effort and improving visibility into key business metrics. Built analytical models on selected KPIs to support data-driven decision-making aligned with stakeholder requirements. Collaborated with consultants and data engineers to deliver data solutions and present insights to project leads and clients.",
+      "description": "Collected, cleaned, and transformed client data from multiple sources into structured datasets for reporting and analysis. Automated recurring reporting workflows using Excel VBA and developed Power BI dashboards to improve visibility into business KPIs and reduce manual effort. Built analytical models based on stakeholder requirements, collaborated with consultants and data engineers to deliver data solutions, and presented findings and recommendations to project leads and clients.",
       "duration": "2022.05-2022.08",
-      "title": "Data Analyst"
+      "title": "Data Analyst Intern"
     }
   ],
   "skills": {
     "competent": [
-      "SQL",
-      "Python",
-      "Pyspark",
-      "Databricks",
-      "PostgreSQL"
+      "PySpark",
+      "Data Modeling",
+      "ETL/ELT",
+      "PostgreSQL",
+      "Agile/Scrum"
     ],
     "familiar": [
-      "Java",
-      "Docker",
       "Azure",
-      "Zeppelin",
-      "Maven"
+      "AWS",
+      "Airflow",
+      "Docker",
+      "Java"
     ],
     "proficient": [
+      "Databricks",
       "Python",
+      "SQL",
       "Linux/Bash",
       "RDBMS/SQL",
-      "Agile/Scrum",
       "Git"
     ]
   },
-  "summary": "I recently graduated from University of Toronto with a degree in data analytics and have been building hands-on experience through data engineering projects at Jarvis Consulting Group. My background includes working with Python, SQL, PySpark, Databricks, PostgreSQL, and cloud-based data platforms to build analytics, backend, and distributed data processing solutions. What excites me most about the data industry is the opportunity to solve real business problems with technology and to keep learning new tools and systems. I am especially passionate about data engineering because it combines problem-solving, scalability, and practical business impact."
+  "summary": "I recently graduated from University of Toronto with a master degree in data analytics and machine learning. Through data engineering projects at Jarvis Consulting Group, I have gained hands-on experience with Python, SQL, PySpark, Databricks, PostgreSQL, and cloud-based data platforms. I have built end-to-end Databricks solutions using medallion architecture, Lakeflow Declarative Pipelines, Unity Catalog, Databricks Workflows, and  interactive Databricks SQL dashboards. What excites me most about the data industry is the opportunity to solve real business problems with technology and to keep learning new tools and systems. I am especially passionate about data engineering because it combines problem-solving, scalability, and practical business impact."
 }

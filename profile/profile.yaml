@@ -5,30 +5,31 @@ github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_YingxianLi
 
 # Introduce yourself, your academic and professional background.
 # What excites you about the software industry and your passion. At least 80 words
-summary: I recently graduated from University of Toronto with a master degree in data analytics and machine learning. Through data engineering projects at Jarvis Consulting Group, I have gained hands-on experience with Python, SQL, PySpark, Databricks, PostgreSQL, and cloud-based data platforms. I have built end-to-end Databricks solutions using medallion architecture, Lakeflow Declarative Pipelines, Unity Catalog, Databricks Workflows, and  interactive Databricks SQL dashboards. What excites me most about the data industry is the opportunity to solve real business problems with technology and to keep learning new tools and systems. I am especially passionate about data engineering because it combines problem-solving, scalability, and practical business impact.
+summary: I recently graduated from the University of Toronto with a master?s degree in Data Analytics and Machine Learning. Through hands-on projects at Jarvis Consulting Group, I have built data engineering and machine learning solutions using Python, SQL, PySpark,  Scikit-learn, Databricks, Azure, and cloud-based data platforms. My experience includes building ETL pipelines, medallion architecture solutions, cloud analytics workflows, financial ML models, and interactive dashboards. I am especially interested in applying data engineering and machine learning to solve practical business problems in cloud environments. My strongest hands-on experience is in Databricks, PySpark, and SQL, and I have also worked with Azure-based Databricks solutions. I bring strong technical fundamentals, fast ramp-up ability, and a fresh mindset to teams modernizing their data and AI solutions.
 
 # Group your skills by level.
 # Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
 skills:
   # At least 5 skills
   proficient:
-    - Databricks
     - Python
     - SQL
+    - Databricks
     - Linux/Bash
-    - RDBMS/SQL
     - Git
   # At least 5 skills
   competent:
-    - PySpark
+    - AWS
     - Data Modeling
+    - Machine Learning
+    - Scikit-learn
+    - Model Evaluation
     - ETL/ELT
-    - PostgreSQL
     - Agile/Scrum
   # At least 5 skills
   familiar:
     - Azure
-    - AWS
+    - SHAP
     - Airflow
     - Docker
     - Java
@@ -69,23 +70,34 @@ jarvis_projects:
       - "Built reusable Databricks data pipeline components using a medallion architecture, creating standardized Bronze, Silver, and Gold processing patterns that can be extended to additional datasets and use cases."
       - "Implemented automated ingestion, transformation, data-quality validation, and workflow orchestration using PySpark, Lakeflow Declarative Pipelines, Databricks Jobs, and Unity Catalog."
       - "Developed governed, analytics-ready Delta tables and interactive Databricks dashboards, enabling business users to access trusted datasets and business metrics."
-      - "Independently researched Databricks platform capabilities, troubleshot integration and permission issues, and documented implementation decisions to support future platform adoption"
+      - "Independently researched Databricks platform capabilities, troubleshot integration and permission issues, and documented implementation decisions to support future platform adoption."
+  - name: "Home Credit ML Project"
+    git_url: "/capstone"
+    description:
+        - "Built a credit default prediction project using the Home Credit dataset with Python, Pandas, NumPy, and Scikit-learn"
+        - "Performed EDA, missing-value analysis, sentinel-value handling, feature engineering, categorical encoding, and model-ready preprocessing."
+        - "Engineered credit-risk features such as credit-to-income ratio, annuity-to-income ratio, external score aggregates, age buckets, and bureau-level aggregations."
+        - "Compared logistic regression and tree-based models using AUROC, Gini, KS, AUPRC, and F1, with SHAP-based explainability and PSI monitoring."
+
 
 # List of personal or academic projects
 # Feel free to add more projects
 highlighted_projects:
     #project name
+    - name: "Credit Scoring ML"
+      description: "Built an end-to-end credit default prediction project using the Home Credit dataset, including EDA, missing-value handling, financial feature engineering, Scikit-learn model comparison, financial metric evaluation, SHAP-based explainability, and PSI monitoring."
     - name: "Stock Analytics Pipeline"
       description: "Developed a reusable Databricks data platform solution using Lakeflow Declarative Pipelines and a medallion architecture to ingest, validate, standardize, and transform stock API data across Bronze, Silver, and Gold Delta tables. Implemented incremental ingestion, data-quality expectations, deduplication, and automated workflow orchestration to create reliable and governed datasets in Unity Catalog. Engineered reusable analytical features, including 7-, 30-, and 90-day price-change and volume-trend metrics, and delivered interactive Databricks dashboards with dynamic filters for downstream users. Independently researched unfamiliar Databricks capabilities, resolved storage-access and pipeline-design challenges, and documented the solution for future reuse and extension."
     - name : "Fitness Cloud Data Platform"
       description: "Joined an in-progress AWS migration project on short notice and independently ramped up on the AWS ecosystem to support delivery after a team member unexpectedly left. Developed modular ETL pipelines with AWS Glue and PySpark to process historical and streaming CSV/JSON data from Amazon S3 into curated Aurora MySQL tables covering customer profiles, class schedules, attendance, engagement, lifecycle segmentation, and churn-prediction features. Orchestrated daily and weekly workflows using EventBridge-triggered AWS Lambda functions, built an interactive Streamlit dashboard to visualize signup trends, popular classes, instructors, and churn patterns, and implemented an Amazon SES?based email campaign system that sent personalized onboarding and re-engagement messages while preventing duplicate communications within 30 days."
+
 
 #List of professional experience
 #The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
 #The description must be more than 25 words. If your experience is not software related, please focus on soft skills and achievements (e.g. team collaboration, problem-solving, improvements, communication).
 professional_experience:
   #Write your Jarvis role as a professional experience rather than training.
-  - title: "Data Engineering Trainee"
+  - title: "Data Engineering & Data Science Trainee"
     company: "Jarvis Consulting Group"
     duration: "2026.01 - Present"
     description: "Developed software and data engineering projects using Python, SQL, PySpark, Databricks, PostgreSQL, Linux/Bash, Java, and related cloud technologies. Designed and built ETL pipelines, relational database solutions, system-monitoring applications, backend tools, and data analytics workflows to support technical anad business use cases. Automated data processing and operational tasks, implemented data-quality checks, and used Git and Agile practices throughout the development lifecycle. Translated project requirements into working solutions, troubleshot technical issues, and presented analytical results through reports and interactive dashboards."

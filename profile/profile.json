@@ -22,6 +22,10 @@
   "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_YingxianLi",
   "highlighted_projects": [
     {
+      "description": "Built an end-to-end credit default prediction project using the Home Credit dataset, including EDA, missing-value handling, financial feature engineering, Scikit-learn model comparison, financial metric evaluation, SHAP-based explainability, and PSI monitoring.",
+      "name": "Credit Scoring ML"
+    },
+    {
       "description": "Developed a reusable Databricks data platform solution using Lakeflow Declarative Pipelines and a medallion architecture to ingest, validate, standardize, and transform stock API data across Bronze, Silver, and Gold Delta tables. Implemented incremental ingestion, data-quality expectations, deduplication, and automated workflow orchestration to create reliable and governed datasets in Unity Catalog. Engineered reusable analytical features, including 7-, 30-, and 90-day price-change and volume-trend metrics, and delivered interactive Databricks dashboards with dynamic filters for downstream users. Independently researched unfamiliar Databricks capabilities, resolved storage-access and pipeline-design challenges, and documented the solution for future reuse and extension.",
       "name": "Stock Analytics Pipeline"
     },
@@ -76,10 +80,20 @@
         "Built reusable Databricks data pipeline components using a medallion architecture, creating standardized Bronze, Silver, and Gold processing patterns that can be extended to additional datasets and use cases.",
         "Implemented automated ingestion, transformation, data-quality validation, and workflow orchestration using PySpark, Lakeflow Declarative Pipelines, Databricks Jobs, and Unity Catalog.",
         "Developed governed, analytics-ready Delta tables and interactive Databricks dashboards, enabling business users to access trusted datasets and business metrics.",
-        "Independently researched Databricks platform capabilities, troubleshot integration and permission issues, and documented implementation decisions to support future platform adoption"
+        "Independently researched Databricks platform capabilities, troubleshot integration and permission issues, and documented implementation decisions to support future platform adoption."
       ],
       "git_url": "/databricks",
       "name": "Databricks"
+    },
+    {
+      "description": [
+        "Built a credit default prediction project using the Home Credit dataset with Python, Pandas, NumPy, and Scikit-learn",
+        "Performed EDA, missing-value analysis, sentinel-value handling, feature engineering, categorical encoding, and model-ready preprocessing.",
+        "Engineered credit-risk features such as credit-to-income ratio, annuity-to-income ratio, external score aggregates, age buckets, and bureau-level aggregations.",
+        "Compared logistic regression and tree-based models using AUROC, Gini, KS, AUPRC, and F1, with SHAP-based explainability and PSI monitoring."
+      ],
+      "git_url": "/capstone",
+      "name": "Home Credit ML Project"
     }
   ],
   "name": "Yingxian Li",
@@ -100,7 +114,7 @@
       "company": "Jarvis Consulting Group",
       "description": "Developed software and data engineering projects using Python, SQL, PySpark, Databricks, PostgreSQL, Linux/Bash, Java, and related cloud technologies. Designed and built ETL pipelines, relational database solutions, system-monitoring applications, backend tools, and data analytics workflows to support technical anad business use cases. Automated data processing and operational tasks, implemented data-quality checks, and used Git and Agile practices throughout the development lifecycle. Translated project requirements into working solutions, troubleshot technical issues, and presented analytical results through reports and interactive dashboards.",
       "duration": "2026.01 - Present",
-      "title": "Data Engineering Trainee"
+      "title": "Data Engineering \u0026 Data Science Trainee"
     },
     {
       "company": "VS-Consulting Group",
@@ -111,27 +125,28 @@
   ],
   "skills": {
     "competent": [
-      "PySpark",
+      "AWS",
       "Data Modeling",
+      "Machine Learning",
+      "Scikit-learn",
+      "Model Evaluation",
       "ETL/ELT",
-      "PostgreSQL",
       "Agile/Scrum"
     ],
     "familiar": [
       "Azure",
-      "AWS",
+      "SHAP",
       "Airflow",
       "Docker",
       "Java"
     ],
     "proficient": [
-      "Databricks",
       "Python",
       "SQL",
+      "Databricks",
       "Linux/Bash",
-      "RDBMS/SQL",
       "Git"
     ]
   },
-  "summary": "I recently graduated from University of Toronto with a master degree in data analytics and machine learning. Through data engineering projects at Jarvis Consulting Group, I have gained hands-on experience with Python, SQL, PySpark, Databricks, PostgreSQL, and cloud-based data platforms. I have built end-to-end Databricks solutions using medallion architecture, Lakeflow Declarative Pipelines, Unity Catalog, Databricks Workflows, and  interactive Databricks SQL dashboards. What excites me most about the data industry is the opportunity to solve real business problems with technology and to keep learning new tools and systems. I am especially passionate about data engineering because it combines problem-solving, scalability, and practical business impact."
+  "summary": "I recently graduated from the University of Toronto with a master?s degree in Data Analytics and Machine Learning. Through hands-on projects at Jarvis Consulting Group, I have built data engineering and machine learning solutions using Python, SQL, PySpark,  Scikit-learn, Databricks, Azure, and cloud-based data platforms. My experience includes building ETL pipelines, medallion architecture solutions, cloud analytics workflows, financial ML models, and interactive dashboards. I am especially interested in applying data engineering and machine learning to solve practical business problems in cloud environments. My strongest hands-on experience is in Databricks, PySpark, and SQL, and I have also worked with Azure-based Databricks solutions. I bring strong technical fundamentals, fast ramp-up ability, and a fresh mindset to teams modernizing their data and AI solutions."
 }

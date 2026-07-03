@@ -112,7 +112,7 @@
   "professional_experience": [
     {
       "company": "Jarvis Consulting Group",
-      "description": "Developed software and data engineering projects using Python, SQL, PySpark, Databricks, PostgreSQL, Linux/Bash, Java, and related cloud technologies. Designed and built ETL pipelines, relational database solutions, system-monitoring applications, backend tools, and data analytics workflows to support technical anad business use cases. Automated data processing and operational tasks, implemented data-quality checks, and used Git and Agile practices throughout the development lifecycle. Translated project requirements into working solutions, troubleshot technical issues, and presented analytical results through reports and interactive dashboards.",
+      "description": "Developed data engineering, and machine learning projects using Python, SQL, Scikit-learn, PySpark, Databricks, Linux/Bash, Java, and related cloud technologies. Designed and built ETL pipelines, relational database solutions, system-monitoring applications, backend tools, data analytics workflows, and credit scoring ML prototypes to support technical and business use cases. Automated data processing and operational tasks, implemented data-quality checks, engineered model-ready features, and used Git and Agile practices throughout the development lifecycle. Translated project requirements into working solutions, troubleshot technical issues, and presented analytical and model evaluation results through reports, documentation, and interactive dashboards.",
       "duration": "2026.01 - Present",
       "title": "Data Engineering \u0026 Data Science Trainee"
     },
